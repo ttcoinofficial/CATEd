@@ -27,6 +27,7 @@ Main features:
 ## Install
 
 You need python3, mysql-server, rabbitmq-server and redis-server to be installed.
+sudo apt-get install libmysqlclient-dev python3 mysql-server rabbitmq-server redis-server
 
 Create python virtual env and activate it in your favorite way.
 
