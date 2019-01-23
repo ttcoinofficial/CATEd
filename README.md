@@ -41,7 +41,7 @@ cd CATEd
 ```
 Create mysql databases
 ```sh
-echo "create database trade character set utf8; create database celery_result; create database portal_ticker;" | mysql -u root
+echo "create database trade character set utf8; create database celery_result; create database portal_ticker;" | mysql -u root -p
 ```
 And migrate
 ```sh
